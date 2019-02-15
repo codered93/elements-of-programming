@@ -1,1 +1,0 @@
-Contains questions ans solutions from the book starting page 44.
