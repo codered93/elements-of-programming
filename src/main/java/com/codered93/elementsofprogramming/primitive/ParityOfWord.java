@@ -1,5 +1,7 @@
 package com.codered93.elementsofprogramming.primitive;
 
+import org.springframework.beans.support.PropertyComparator;
+
 public class ParityOfWord {
 	/**
 	 * Count the number of set bits in a number
@@ -45,6 +47,10 @@ public class ParityOfWord {
 		System.out.println(countParity(555));
 		System.out.println(checkParity(555));
 		System.out.println(checkParityK(555));
+		
+		// XOR of bits is a parity checker which returns 0 if number of 1's 
+		// are even else returns 1
+		System.out.println(0^1^1);
 	}
 
 }
